@@ -25,7 +25,7 @@ int main()
     printf("Enter n: ");
     scanf("%d", &n);
 
-    for(i=1;i<=n;i++){
+    for(i=2;i<=n;i=i+2){
         mul=mul*i;
     }
 
@@ -33,4 +33,5 @@ int main()
 
     return 0;
     
+
 }
